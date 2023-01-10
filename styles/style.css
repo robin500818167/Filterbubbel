@@ -2,3 +2,6 @@ body {
   background: white;
   font-family: sans-serif;
 }
+svg {
+  border:1px solid;
+}
