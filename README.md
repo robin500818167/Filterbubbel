@@ -1,2 +1,2 @@
 # Filterbubbel
-Project FilterBubble
+Project FilterBubble 🫧
