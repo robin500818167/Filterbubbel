@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterbubbel</title>
+    <script>
+        function myFunction(button) {
+    let opacity = button.dataset.opacity;
+    const el = document.getElementById("p1");
+    el.style.opacity = opacity;
+    button.dataset.opacity = opacity === "1" ? "0" : "1";
+  }
+    </script>
+  </head>
+  <body>
+    <svg id="svg" viewBox="0 0 500 225">
+      <symbol id="poly" viewBox="14 25 72 83.3">
+        <polygon tran points="50,25 86,45.83 86,87.5 50,108.3 14,87.53 14,45.83" />
+      </symbol>
+      <symbol id="circle" viewBox="14 25 72 83.3">
+        <circle cx="50" cy="50" r="50" fill="green" />
+      </symbol>
+      </svg>
+      <div id="p1">Opacity test</div>
+      <button class="change" data-opacity="0" onclick="myFunction(this)">Change opacity</button>      
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

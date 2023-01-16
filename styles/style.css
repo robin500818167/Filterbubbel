@@ -1,7 +1,57 @@
-body {
-  background: white;
-  font-family: sans-serif;
-}
 svg {
   border:1px solid;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #232323;
+  color: #fff;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+.change {
+  position:absolute;
+  bottom: 5%;
+  right:5%;
+}
+.dBg {
+  background-color: #00AEB6;
+}
+.dBg h1, .dBg section, .dBg h5 {
+  display: flex;
+  justify-content: center;
+}
+.dBg h1 {
+  font: normal normal 800 60px/73px Montserrat;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+.dBg .button {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 261px;
+  padding: 25px;
+  background: #029096 0% 0% no-repeat padding-box;
+  color: white;
+  border-radius: 21px;
+  text-align: center;
+  font: normal normal normal 21px/25px Montserrat;
+}
+.dBg h5 {
+  margin-bottom: 0px;
+  font: normal normal bold 21px/25px Montserrat;
+}
+.dBg  p {
+  font: normal normal normal 21px/25px Montserrat;
+  width: 781px;
+  text-align: center;
+}
+.avatar {
+  margin-bottom: 35px;
+}
+.avatar a {
+  background-color: #19CCD5;
+  padding: 65px;
+  margin: 15px;
+  border-radius: 21px;
 }
