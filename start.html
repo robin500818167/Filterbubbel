@@ -8,7 +8,7 @@
     <script>
         function myFunction(button) {
     let opacity = button.dataset.opacity;
-    const el = document.getElementById("p1");
+    const el = document.getElementById("menu");
     el.style.opacity = opacity;
     button.dataset.opacity = opacity === "1" ? "0" : "1";
   }
@@ -23,8 +23,44 @@
         <circle cx="50" cy="50" r="50" fill="green" />
       </symbol>
       </svg>
-      <div id="p1">Opacity test</div>
-      <button class="change" data-opacity="0" onclick="myFunction(this)">Change opacity</button>      
+      <div id="menu">
+        <section class="row">
+          <h3>Praatgraag</h3>
+          <section>
+            <input type="range" min="0" max="10" step="1" value="0">
+            <div class="value">0</div>
+          </section>
+        </section>
+        <section class="row">
+          <h3>Stembereik</h3>
+          <section>
+            <input type="range" min="0" max="10" step="1" value="0">
+            <div class="value">0</div>
+          </section>
+        </section>
+        <section class="row">
+          <h3>Algemene dierenliefde</h3>
+          <section>
+            <input type="range" min="0" max="10" step="1" value="0">
+            <div class="value">0</div>
+          </section>
+        </section>
+        <section class="row">
+          <h3>Hoeveelheid gesprekken</h3>
+          <section>
+            <input type="range" min="0" max="10" step="1" value="0">
+            <div class="value">0</div>
+          </section>
+        </section>
+        <section class="row">
+          <h3>Hoeveel kan ik aanhoren?</h3>
+          <section>
+            <input type="range" min="0" max="10" step="1" value="0">
+            <div class="value">0</div>
+          </section>
+        </section>
+      </div>
+      <button class="change" data-opacity="0" onclick="myFunction(this)">Verander de stroming</button>      
     <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
