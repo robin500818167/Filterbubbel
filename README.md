@@ -26,4 +26,4 @@ npm run dev
 ## Licentie 💳
 [![Licentie: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Licensed under the MIT License, copyright © 2023 – Robin van Houten
+Licensed under the MIT License, copyright © 2023 – Robin van Houten, Nina van Eijk en Melissa Roquas
