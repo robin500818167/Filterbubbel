@@ -1,7 +1,7 @@
 # Filterbubbel
 Project FilterBubble 🫧
 
-# Social sea 🌿
+# Social sea 🌊
 tekst
 
 ## Feature 💡
