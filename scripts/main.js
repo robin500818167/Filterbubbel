@@ -4,6 +4,8 @@ import randomIsland from './randomIslands.js';
 randomIsland();
 import randomBottle from './randomBottles.js';
 randomBottle();
+
+
   
 var elem = document.querySelector('input[type="range"]');
 
