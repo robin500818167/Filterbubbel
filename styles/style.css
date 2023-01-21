@@ -174,6 +174,8 @@ input[type="range"]::-webkit-slider-thumb:active {
 .kat, .hond, .konijn {
   position: absolute;
   opacity: 0;
+  animation: islands 3.0s forwards;
+  animation-delay: 3s;
 }
 .kat {
   width: 570px;
@@ -187,6 +189,10 @@ input[type="range"]::-webkit-slider-thumb:active {
  right: 0px;
  width: 500px;
  top: 10px;
+}
+.gone {
+  animation: gone 1.0s forwards;
+  animation-delay: 3s;
 }
 .stay img, .gone img {
   position: absolute;
@@ -412,6 +418,8 @@ input[type="range"]::-webkit-slider-thumb:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
+  animation: alert 3.0s forwards;
+  animation-delay: 5s;
 }
 .popup {
   margin: 70px auto;
@@ -429,4 +437,18 @@ input[type="range"]::-webkit-slider-thumb:active {
 .popup a {
   background-color: #56C0D0;
   font: normal normal normal 29px/35px Montserrat;
+}
+
+/* animatie  */
+@keyframes islands {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes gone {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+@keyframes alert {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
