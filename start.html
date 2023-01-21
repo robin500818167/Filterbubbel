@@ -5,62 +5,51 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Filterbubbel</title>
-    <script>
-        function myFunction(button) {
-    let opacity = button.dataset.opacity;
-    const el = document.getElementById("menu");
-    el.style.opacity = opacity;
-    button.dataset.opacity = opacity === "0" ? "1" : "0";
-  }
-    </script>
   </head>
-  <body>
-    <svg id="svg" viewBox="0 0 500 225">
-      <symbol id="poly" viewBox="14 25 72 83.3">
-        <polygon tran points="50,25 86,45.83 86,87.5 50,108.3 14,87.53 14,45.83" />
-      </symbol>
-      <symbol id="circle" viewBox="14 25 72 83.3">
-        <circle cx="50" cy="50" r="50" fill="green" />
-      </symbol>
-      </svg>
+  <body class="start">
       <div id="menu">
+        <h1>Ontwerp jouw Social Sea stroming</h1>
+        <section class="p">
+            <p>Niet iedereen communiceert op dezelfde manier, kies daarom welke eigenschappen jij je inwoners van de social sea wil geven.
+            </p>
+        </section>
         <section class="row">
-          <h3>Praatgraag</h3>
+          <h3>Hoeveel praten ze?</h3>
           <section>
+            <div class="value">Weinig</div>
             <input type="range" min="0" max="10" step="1" value="0">
-            <div class="value">0</div>
+            <div class="value">Veel</div>
           </section>
         </section>
         <section class="row">
-          <h3>Stembereik</h3>
+          <h3>Hoe hard schreeuwen ze?</h3>
           <section>
+            <div class="value">zacht</div>
             <input type="range" min="0" max="50" step="1" value="0">
-            <div class="value">0</div>
+            <div class="value">Hard</div>
+          </section>
+        </section>
+        <section class="row radio">
+          <h3>Staan ze open voor meerdere dieren?</h3>
+          <section>
+            <label>
+              <input type="radio" name="radio" checked/>
+              <span class="value box">Ja</span>
+            </label>
+            <label>
+              <input type="radio" name="radio"/>
+              <span class="value box">Nee</span>
+            </label>
+            <label>
+              <input type="radio" name="radio"/>
+              <span class="value box">Soms</span>
+            </label>
           </section>
         </section>
         <section class="row">
-          <h3>Algemene dierenliefde</h3>
-          <section>
-            <input type="range" min="0" max="10" step="1" value="0">
-            <div class="value">0</div>
-          </section>
+          <button class="change">Op naar de zee</button>
         </section>
-        <section class="row">
-          <h3>Hoeveelheid gesprekken</h3>
-          <section>
-            <input type="range" min="5" max="50" step="1" value="0">
-            <div class="value">0</div>
-          </section>
-        </section>
-        <section class="row">
-          <h3>Hoeveel kan ik aanhoren?</h3>
-          <section>
-            <input type="range" min="5" max="20" step="1" value="0">
-            <div class="value">0</div>
-          </section>
-        </section>
-      </div>
-      <button class="change" data-opacity="0" onclick="myFunction(this)">Verander de stroming</button>      
+      </div> 
     <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
