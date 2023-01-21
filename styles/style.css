@@ -173,6 +173,7 @@ input[type="range"]::-webkit-slider-thumb:active {
 }
 .kat, .hond, .konijn {
   position: absolute;
+  opacity: 0;
 }
 .kat {
   width: 570px;
@@ -187,7 +188,7 @@ input[type="range"]::-webkit-slider-thumb:active {
  width: 500px;
  top: 10px;
 }
-.stay img {
+.stay img, .gone img {
   position: absolute;
 }
 .stay img:nth-child(1) {
@@ -293,6 +294,115 @@ input[type="range"]::-webkit-slider-thumb:active {
 .stay img:nth-child(26) {
   bottom: 60px;
   right: 1420px;
+}
+/* gone */
+.gone img:nth-child(1) {
+  bottom: 293px;
+  right: 1195px;
+}
+.gone img:nth-child(2) {
+  bottom: 390px;
+  right: 775px;
+}
+.gone img:nth-child(3) {
+  bottom: 515px;
+  right: 225px;
+}
+.gone img:nth-child(4) {
+  bottom: 255px;
+  right: 250px;
+}
+.gone img:nth-child(5) {
+  bottom: 495px;
+  right: 390px;
+}
+.gone img:nth-child(6) {
+  bottom: 35px;
+  right: 800px;
+}
+.gone img:nth-child(7) {
+  bottom: 590px;
+  right: 1465px;
+}
+.gone img:nth-child(8) {
+  bottom: 605px;
+  right: 40px;
+}
+.gone img:nth-child(9) {
+  bottom: 460px;
+  right: 130px;
+}
+.gone img:nth-child(10) {
+  bottom: 135px;
+  right: 655px;
+}
+.gone img:nth-child(11) {
+  bottom: 370px;
+  right: 1515px;
+}
+.gone img:nth-child(12) {
+  bottom: 255px;
+  right: 1570px;
+}
+.gone img:nth-child(13) {
+  bottom: 15px;
+  right: 610px;
+}
+.gone img:nth-child(14) {
+  bottom: 270px;
+  right: 655px;
+}
+.gone img:nth-child(15) {
+  bottom: 645px;
+  right: 300px;
+}
+.gone img:nth-child(16) {
+  bottom: 390px;
+  right: 245px;
+}
+.gone img:nth-child(17) {
+  bottom: 190px;
+  right: 65px;
+}
+.gone img:nth-child(18) {
+  bottom: 340px;
+  right: 50px;
+}
+.gone img:nth-child(19) {
+  bottom: 15px;
+  right: 10px;
+}
+.gone img:nth-child(20) {
+  bottom: 235px;
+  right: 750px;
+}
+.gone img:nth-child(21) {
+  bottom: 180px;
+  right: 870px;
+}
+.gone img:nth-child(22) {
+  bottom: 240px;
+  right: 940px;
+}
+.gone img:nth-child(23) {
+  bottom: 455px;
+  right: 1230px;
+}
+.gone img:nth-child(24) {
+  bottom: 400px;
+  right: 1130px;
+}
+.gone img:nth-child(25) {
+  bottom: 510px;
+  right: 1355px;
+}
+.gone img:nth-child(26) {
+  bottom: 340px;
+  right: 1400px;
+}
+.gone img:nth-child(27) {
+  bottom: 640px;
+  right: 1180px;
 }
 .overlay {
   position: fixed;
