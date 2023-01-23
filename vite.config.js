@@ -1,15 +1,15 @@
 import { defineConfig } from 'vite';
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
-
+import { resolve } from 'path';
 export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
       input: {
-        animation: new URL("./animation.html", import.meta.url).pathname,
-                explanation: new URL("./explanation.html", import.meta.url).pathname,
-        start: new URL("./start.html", import.meta.url).pathname      }
+        main: resolve(__dirname, 'index.html'),
+        animation: resolve(__dirname, 'animation.html'),
+        explanation: resolve(__dirname, 'explanation.html'),
+        start: resolve(__dirname, 'start.html')
+      }
     }
   },
 });
