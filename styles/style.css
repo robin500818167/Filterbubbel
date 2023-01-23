@@ -21,6 +21,7 @@ body {
 }
 .green {
   background:#95c091 0% 0% no-repeat padding-box ;
+  right: 75%;
 }
 .dBg {
   background-color: #36C5BE;
@@ -441,7 +442,15 @@ input[type="range"]::-webkit-slider-thumb:active {
   animation: gW 10.0s;
   animation-delay: 3s;
 }
-
+.dBgEx {
+  background-color: #71D4E4;
+}
+.dBgEx video {
+  width: 1000px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 /* animatie  */
 @keyframes islands {
   from {opacity: 0;}
