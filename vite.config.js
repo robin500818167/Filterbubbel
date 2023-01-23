@@ -8,8 +8,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        main: new URL('./client/index.html', import.meta.url).pathname,
-        login: dirname(fileURLToPath(import.meta.url + 'login.html')),
+        main: new URL('/index.html', import.meta.url).pathname
       }
     }
   },
