@@ -3,7 +3,6 @@ import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 export default defineConfig({
-  root: 'client',
   build: {
     outDir: 'dist',
     rollupOptions: {
