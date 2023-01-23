@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Filterbubbel</title>
   </head>
   <body class="start">
@@ -13,6 +14,7 @@
             <p>Niet iedereen communiceert op dezelfde manier, kies daarom welke eigenschappen jij je inwoners van de social sea wil geven.
             </p>
         </section>
+        <section>
         <section class="row">
           <h3>Hoeveel praten ze?</h3>
           <section>
@@ -25,7 +27,7 @@
           <h3>Hoe hard schreeuwen ze?</h3>
           <section>
             <div class="value">zacht</div>
-            <input type="range" min="0" max="50" step="1" value="0">
+            <input  id="field" type="range" min="0" max="50" step="1" value="0" oninput="inputRange()">
             <div class="value">Hard</div>
           </section>
         </section>
@@ -46,10 +48,11 @@
             </label>
           </section>
         </section>
+      </section>
         <section class="row">
-          <button class="change">Op naar de zee</button>
+          <a href="/animation.html" class="change">Op naar de zee</a>
         </section>
       </div> 
-    <script type="module" src="./scripts/main.js"></script>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
