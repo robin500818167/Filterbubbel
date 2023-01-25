@@ -1,7 +1,6 @@
 function inputRange() {
   var field1 = document.getElementById("field").value;
   localStorage.setItem('rangeValue', field1);
-  console.log(field1)
 }
 function changeDelay() {
   var v = localStorage.getItem('rangeValue'); 
@@ -15,7 +14,6 @@ function changeDelay() {
   }
   if (v >= 25) //hard
   {
-    console.log(v)
     document.getElementById("kat").style.animationDelay = "2s";
     document.getElementById("hond").style.animationDelay = "4s";
     var hEi = document.querySelectorAll('.hEi');
