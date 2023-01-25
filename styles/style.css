@@ -190,13 +190,13 @@ input[type="range"]::-webkit-slider-thumb:active {
  top: 10px;
 }
 .ani .kEi {
-  animation: gone 1.0s forwards 16s;
+  animation: gone 1.0s forwards 10s;
 }
  .ani .katEi {
-  animation: gone 1.0s forwards 8s;
+  animation: gone 1.0s forwards 2s;
 }
  .ani .hEi {
-  animation: gone 1.0s forwards 12s;
+  animation: gone 1.0s forwards 6s;
 }
 .stay img, .gone img  {
   position: absolute;
@@ -425,7 +425,7 @@ input[type="range"]::-webkit-slider-thumb:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
-  animation: alert 3.0s forwards 20s;
+  animation: alert 3.0s forwards 14s;
 
 }
 .popup {
@@ -472,7 +472,7 @@ input[type="range"]::-webkit-slider-thumb:active {
     opacity: 1;
   }
   10% {
-    opacity: 0.3;
+    opacity: 0.2;
   }
   100% {
     opacity: 1;
