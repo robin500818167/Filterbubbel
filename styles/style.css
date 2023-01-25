@@ -189,17 +189,20 @@ input[type="range"]::-webkit-slider-thumb:active {
  width: 500px;
  top: 10px;
 }
-.kEi {
+.ani .kEi {
   animation: gone 1.0s forwards 16s;
 }
- .katEi {
+ .ani .katEi {
   animation: gone 1.0s forwards 8s;
 }
- .hEi {
+ .ani .hEi {
   animation: gone 1.0s forwards 12s;
 }
-.stay img, .gone img {
+.stay img, .gone img  {
   position: absolute;
+}
+.ani1 .gW  {
+  animation: gW 10.0s 3s; 
 }
 .stay img:nth-child(1) {
   bottom: 135px;
@@ -441,9 +444,6 @@ input[type="range"]::-webkit-slider-thumb:active {
 .popup a {
   background-color: #56C0D0;
   font: normal normal normal 29px/35px Montserrat;
-}
-#gW {
-  animation: gW 10.0s 3s;
 }
 .dBgEx {
   background-color: #71D4E4;
