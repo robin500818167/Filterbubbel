@@ -174,7 +174,7 @@ input[type="range"]::-webkit-slider-thumb:active {
 #kat, #hond, #konijn {
   position: absolute;
   opacity: 0;
-  animation: islands 3.0s forwards 15s;
+  animation: islands 3.0s forwards;
 }
 .kat {
   width: 570px;
