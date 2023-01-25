@@ -190,9 +190,17 @@ input[type="range"]::-webkit-slider-thumb:active {
  width: 500px;
  top: 10px;
 }
-.gone {
+.kEi {
   animation: gone 1.0s forwards;
-  animation-delay: 15s;
+  animation-delay: 16s;
+}
+ .katEi {
+  animation: gone 1.0s forwards;
+  animation-delay: 8s;
+}
+ .hEi {
+  animation: gone 1.0s forwards;
+  animation-delay: 12s;
 }
 .stay img, .gone img {
   position: absolute;
@@ -438,7 +446,7 @@ input[type="range"]::-webkit-slider-thumb:active {
   background-color: #56C0D0;
   font: normal normal normal 29px/35px Montserrat;
 }
-.gW {
+#gW {
   animation: gW 10.0s;
   animation-delay: 3s;
 }
