@@ -174,8 +174,7 @@ input[type="range"]::-webkit-slider-thumb:active {
 #kat, #hond, #konijn {
   position: absolute;
   opacity: 0;
-  animation: islands 3.0s forwards;
-  animation-delay: 15s;
+  animation: islands 3.0s forwards 15s;
 }
 .kat {
   width: 570px;
@@ -191,16 +190,13 @@ input[type="range"]::-webkit-slider-thumb:active {
  top: 10px;
 }
 .kEi {
-  animation: gone 1.0s forwards;
-  animation-delay: 16s;
+  animation: gone 1.0s forwards 16s;
 }
  .katEi {
-  animation: gone 1.0s forwards;
-  animation-delay: 8s;
+  animation: gone 1.0s forwards 8s;
 }
  .hEi {
-  animation: gone 1.0s forwards;
-  animation-delay: 12s;
+  animation: gone 1.0s forwards 12s;
 }
 .stay img, .gone img {
   position: absolute;
@@ -426,8 +422,8 @@ input[type="range"]::-webkit-slider-thumb:active {
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   opacity: 0;
-  animation: alert 3.0s forwards;
-  animation-delay: 20s;
+  animation: alert 3.0s forwards 20s;
+
 }
 .popup {
   margin: 70px auto;
@@ -447,8 +443,7 @@ input[type="range"]::-webkit-slider-thumb:active {
   font: normal normal normal 29px/35px Montserrat;
 }
 #gW {
-  animation: gW 10.0s;
-  animation-delay: 3s;
+  animation: gW 10.0s 3s;
 }
 .dBgEx {
   background-color: #71D4E4;

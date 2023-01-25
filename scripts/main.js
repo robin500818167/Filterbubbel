@@ -30,13 +30,13 @@ function changeDelay() {
     var hEi = document.querySelectorAll('.hEi');
     for (var i = 0; i < hEi.length; i++) {
     var currenthEi = hEi[i];
-    currenthEi.style.animationDelay = "10s";
+    currenthEi.style.animation = "gone 1.0s forwards 10s";
     }
     document.getElementById("konijn").style.animationDelay = "6s";
     var kEi = document.querySelectorAll('.kEi');
     for (var i = 0; i < kEi.length; i++) {
     var currentkEi = kEi[i];
-    currentkEi.style.animationDelay = "6s";
+    currentkEi.style.animation = "gone 1.0s forwards 6s";
     }
     document.getElementById("popup1").style.animationDelay = "13s";
   }
